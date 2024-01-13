@@ -1,0 +1,93 @@
+.portfolio{
+    padding-top: 50px;
+}
+
+.portfolio h1{
+    color: white;
+    padding-left: 140px;
+    font-size: 300%;
+}
+
+.front {
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 50px auto;
+    background: linear-gradient(to right, #00002a, #800080);
+    box-shadow: 0 0 10px 1px rgba(255, 223, 88, 0.8);
+}
+.back {
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 50px auto;
+    background: linear-gradient(to left, #00002a, #800080);
+    box-shadow: 0 0 10px 1px rgba(255, 223, 88, 0.8);
+}
+.card{
+    display: flex;
+    padding-left: 140px;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+.portfolio h2{
+    text-align: center;
+    color: white;
+}
+.portfolio .portfoliocover{
+    background-color: white;
+}
+.front img{
+    padding-left: 17px;
+    width: 270px;
+    border-radius: 10%;
+}
+.front p{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+
+}
+.front a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.front a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.flip-icon {
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    cursor: pointer;
+    padding-left: 90%;
+    padding-top: 20%;
+}
+.back ul{
+    padding-top: 5%;
+}
+.back li{
+    color: white ;
+    padding: 5%;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px #000000;
+    
+}
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+
+    .card {
+        display: flex;
+        padding-left: 140px;
+        padding-right: 30px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+.portfolio h1{
+text-align: center;
+}
+}

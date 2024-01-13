@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import Sidebar from './Sidebar';
 import Home from './Home';
 import About from './About';
+import Portfolio from './Portfolio';
 
 
 const App = () => {
@@ -13,6 +14,8 @@ const App = () => {
       { <Sidebar /> }
       { <Home />  }
       { <About />}
+      { <Portfolio />}
+      
     </div>
   );
 };

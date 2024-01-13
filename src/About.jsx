@@ -41,7 +41,7 @@ const About = () => {
               </p>
             </div>
             <div className={`tabcontents ${activeTab === 'education' ? 'activetab' : ''}`}>
-              <img src="./images/Screenshot 2023-12-31 at 3.50.09 AM.png" alt="" />
+              <img src="./images/Screenshot 2024-01-10 at 12.49.39 AM.png" alt="" />
             </div>
             <div className={`tabcontents ${activeTab === 'skills' ? 'activetab' : ''}`}>
              <div className='Container'>
