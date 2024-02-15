@@ -108,42 +108,57 @@
 
 /* Updated styles for the specific media query */
 @media only screen and (min-width: 768px) and (max-width: 1440px) {
-    .home {
-      padding: 40px;
-      padding-top: 80px;
-      
-    }
   
-    .home div {
-      width: 50%;
-    }
-    div.left{
-      width: 1000%;
-      padding-left: 8%;
-      text-align: left;
-    }
-  
-    .right img {
-      width: 1000%;
-      padding-top: 500%;
-    }
-  
-    .home h1 {
-      padding-right: 52%;
-      padding-left: 8%;
-    }
-  
-    .home h2 {
-      padding-right: 48%;
-      padding-left: 8%;
-      width:max-content ;
-      
-    }
-  
-    .home p {
-      margin-right: -30%;
-      text-align: start;
-      padding-left: 55px;
-    }
-  }
+  .home {
+    padding: 40px;
+    padding-top: 5vh; /* Use viewport height to ensure padding scales with screen size */
+}
+
+.home div {
+    width: 100%; /* Full width for better use of space, adjust as necessary */
+    max-width: 1200px; /* Limit max width to maintain readability */
+    margin: 0 auto; /* Center the divs within the .home container */
+}
+
+.left {
+    padding-left: 8%; /* Adjusted to a more reasonable value */
+    text-align: left;
+    padding-top: 100px;
+}
+
+.right img {
+    width: 80%; /* Adjust width to be a percentage of the container for responsiveness */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Adds rounded corners to the image */
+    margin: 20px auto; /* Center image with vertical spacing */
+    display: block; /* Necessary for margin auto to work */
+}
+
+.home h1, .home h2 {
+    padding: 0 5%; /* Provide some padding on the sides */
+    text-align: left; /* Align text to the left for readability */
+}
+
+.home p {
+    margin: 0; /* Reset margin to prevent layout shift */
+    padding: 0 5%; /* Consistent padding with headings */
+    text-align: left; /* Align paragraphs to the left for consistency */
+    max-width: 800px; /* Ensure text blocks are not too wide */
+    margin: 0 auto; /* Center the paragraph for better readability */
+}
+.text-wrapper span {
+   
+  display: inline;
+  line-height: 0;
+  margin-top: 15%;
+  background-image: linear-gradient(to right, rgb(246, 24, 61), lightblue);
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 70px #fff; 
+}
+.hello{
+  padding: 100%;
+}
+
+}
   

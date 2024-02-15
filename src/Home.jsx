@@ -27,7 +27,7 @@ const Home = () => {
       <div className="left">
         {/* Display the current greeting using the currentIndex */}
         <h4 className="text-wrapper">
-          <span>{helloTexts[currentIndex]}</span>
+          <span className='hello'>{helloTexts[currentIndex]}</span>
         </h4>
         <h1>Hi, It's Me</h1>
         <h2>I'm <span className="highlighted-text">Jai Sachdeva</span></h2>

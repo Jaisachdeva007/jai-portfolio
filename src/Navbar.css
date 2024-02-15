@@ -2,7 +2,7 @@
 /* Styling for the Navbar component */
 
 .navbar {
-   display: flex; 
+  display: flex; 
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
@@ -55,7 +55,7 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1440px) {
   .navbar{
-    width: 120%;
+    
   }
   
 
